@@ -1,0 +1,15 @@
+public class LoginCheck {
+    public static void main(String[] args) {
+        String username = "admin";
+        String password = "1234";
+
+        String inputUsername = "admin";
+        String inputPassword = "1234";
+
+        boolean isLoggedIn = inputUsername.equals(username) && inputPassword.equals(password);
+
+        System.out.println("Username: " + inputUsername);
+        System.out.println("Password: " + inputPassword);
+        System.out.println("Logged in: " + isLoggedIn);
+    }
+}
