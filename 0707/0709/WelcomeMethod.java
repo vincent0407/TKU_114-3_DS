@@ -1,9 +1,11 @@
 public class WelcomeMethod {
     public static void main(String[] args) {
-        sayHello();
+
+        printWelcome();
     }
 
-    public static void sayHello() {
-        System.out.println("Hello Java");
+    public static void printWelcome() {
+        System.out.println("Welcome to Java");
+        System.out.println("Practice methods");
     }
 }
